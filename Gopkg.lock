@@ -35,14 +35,52 @@
   version = "v1.3"
 
 [[projects]]
+  name = "github.com/golang/protobuf"
+  packages = ["proto"]
+  revision = "925541529c1fa6821df4e44ce2723319eb2be768"
+  version = "v1.0.0"
+
+[[projects]]
   name = "github.com/pborman/uuid"
   packages = ["."]
   revision = "e790cca94e6cc75c7064b1332e63811d4aae1a53"
   version = "v1.1"
 
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/net"
+  packages = [
+    "context",
+    "context/ctxhttp"
+  ]
+  revision = "61147c48b25b599e5b561d2e9c4f3e1ef489ca41"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/oauth2"
+  packages = [
+    ".",
+    "internal"
+  ]
+  revision = "921ae394b9430ed4fb549668d7b087601bd60a81"
+
+[[projects]]
+  name = "google.golang.org/appengine"
+  packages = [
+    "internal",
+    "internal/base",
+    "internal/datastore",
+    "internal/log",
+    "internal/remote_api",
+    "internal/urlfetch",
+    "urlfetch"
+  ]
+  revision = "150dc57a1b433e64154302bdc40b6bb8aefa313a"
+  version = "v1.0.0"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "cdd7f0d70cb64f423435fb2f262b48cb90917f680c985861667b1726105b472a"
+  inputs-digest = "e90cb8fc6864e0acdbd21a5d20d7ac9ba91ac402ca0e2ab3920c4a485571a082"
   solver-name = "gps-cdcl"
   solver-version = 1
