@@ -11,6 +11,30 @@
   version = "v1.0.0"
 
 [[projects]]
+  name = "github.com/ansel1/merry"
+  packages = ["."]
+  revision = "c8d518a00eb65f58411f49c1c84ee99c02b699f5"
+  version = "v1.0.2"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/felipeweb/gopher-utils"
+  packages = ["."]
+  revision = "05a00fc86ef51b7b351fb05a0e13307c85dbe115"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/felipeweb/osin-mysql"
+  packages = ["."]
+  revision = "269603eb06cfa0a1e839d3c9c59ddab39cf6fb9e"
+
+[[projects]]
+  name = "github.com/go-sql-driver/mysql"
+  packages = ["."]
+  revision = "a0583e0143b1624142adab07e0e97fe106d99561"
+  version = "v1.3"
+
+[[projects]]
   name = "github.com/pborman/uuid"
   packages = ["."]
   revision = "e790cca94e6cc75c7064b1332e63811d4aae1a53"
@@ -19,6 +43,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "d5b34e4f65b6acdb4cdc5e0a595444e3139b02d35c5a05f2d587eff6ba7f4dfe"
+  inputs-digest = "cdd7f0d70cb64f423435fb2f262b48cb90917f680c985861667b1726105b472a"
   solver-name = "gps-cdcl"
   solver-version = 1
